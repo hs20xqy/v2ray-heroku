@@ -25,11 +25,11 @@
     "settings": {
       "vnext": [
       {
-         "address": "herokuapp_IP  or cn_sniproxy_ip",  
+         "address": "hs-v2ray-heroku.herokuapp.com",  
          "port": 443, 
          "users": [
          {
-           "id": "your UUID",
+           "id": "eff5dd0e-a0aa-409f-8af5-0c90771ff8d0",
            "alterId": 64,
            "security": "auto"
          }
@@ -41,13 +41,13 @@
      "network": "ws",
      "security": "tls",
      "tlsSettings": {
-       "serverName": "windows.com or herokuapp.com",
+       "serverName": "herokuapp.com",
        "allowInsecure": true
       },
      "wsSettings": {
        "path": "",
        "headers": {
-          "Host": "your_app_name.herokuapp.com"
+          "Host": "hs-v2ray-heroku.herokuapp.com"
        }
      }
   },
